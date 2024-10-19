@@ -1,0 +1,16 @@
+# STM32CubeIDE specific
+.settings/
+*.launch
+*.log
+*.bin
+*.elf
+*.map
+*.hex
+*.obj
+*.list
+*.bak
+*.log
+*.d
+*.o
+Debug/
+Release/
