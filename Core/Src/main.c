@@ -24,6 +24,7 @@
 /* USER CODE BEGIN Includes */
 
 #include "xnucleoihm02a1.h"
+#include "example.h"
 
 /* USER CODE END Includes */
 
@@ -374,6 +375,9 @@ void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN 5 */
   /* Infinite loop */
+
+	MicrosteppingMotor_Example_01();
+
   for(;;)
   {
     osDelay(1);
