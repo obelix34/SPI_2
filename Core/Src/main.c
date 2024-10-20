@@ -112,6 +112,7 @@ int main(void)
   MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
 
+  /* Init specifique du XNUCLEO02A01 */
   BSP_Init();
 
   /* USER CODE END 2 */
