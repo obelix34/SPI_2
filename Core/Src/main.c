@@ -413,7 +413,10 @@ void StartDefaultTask(void *argument)
   /* USER CODE BEGIN 5 */
 	/* Infinite loop */
 
-	MicrosteppingMotor_Example_01();
+	while(1)
+	{
+		MicrosteppingMotor_Example_03();
+	}
 
 	for(;;)
 	{
